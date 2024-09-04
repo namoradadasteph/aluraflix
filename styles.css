@@ -1,13 +1,39 @@
 body{
-    color:rgb(138, 23, 23);
+    color:rgb(121, 4, 86);
     background:rgb(129, 149, 229);
     margin:0px;
+    font-family: "DM Serif Text", serif;
 }
 
 header{
-    border-bottom: solid 2px rgb(138, 23, 23);
+    border-bottom: solid 2px rgb(101, 5, 50);
     padding:20px;
     font-size:32px;
-    color:black;
+    color:rgb(72, 4, 49);
 
+}
+
+.chamada{
+    background: rgb(183, 213, 252);
+	padding-bottom: 80px;
+	padding-top: 80px;
+	display: flex;
+	justify-content: center;
+}
+.chamada-texto{
+    margin-right: 5%;
+}
+img{
+
+    height: 200px;
+}
+
+.categoria-videos{
+display:flex;
+overflow-x: auto;
+gap: 10px;
+}
+.categoria{
+    padding-left: 20px;
+    padding-rigth: 20px;
 }
